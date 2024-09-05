@@ -50,9 +50,10 @@ This project provides a web application for predicting the likelihood of heart d
 For any questions or issues related to this project, please feel free to reach out:
 
 - **Name**: Adesh Gurjar
-- **Email**: [adeshg@example.com](mailto:adeshg@example.com)
-- **GitHub**: [github.com/adeshg](https://github.com/adeshg)
-- **LinkedIn**: [linkedin.com/in/adeshg](https://www.linkedin.com/in/adeshg)
+- **Email**: [codergurjar02@gmail.com](mailto:codergurjar02@gmail.com)
+- **GitHub**: [github.com/AdeshGurjar02](https://github.com/AdeshGurjar02)
+- **LinkedIn**: [linkedin.com/in/adesh-gurjar-65a287228](https://www.linkedin.com/in/adesh-gurjar-65a287228/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Brj1hR%2B2GRkGp0NXzH1RJlw%3D%3D)
 
-You can also report issues or contribute to this project via the [GitHub Issues page](https://github.com/adeshg/heart-disease-prediction/issues).
+You can also report issues or contribute to this project via the [GitHub Issues page](https://github.com/AdeshGurjar02/heart-disease-prediction/issues).
+
 
