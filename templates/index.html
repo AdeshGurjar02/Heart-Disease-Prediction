@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Heart Disease Prediction</h1>
+        <h2>By Adesh Gurjar (0901IO211002)</h2>
+    </header>
+
+    <div class="container">
+        <h2>Prediction Form</h2>
+        <form action="/predict" method="POST">
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" required>
+            </div>
+            <div>
+                <div>
+                    <label for="sex">Sex:</label>
+                   <b> <input type="radio" name="sex"  value="1"  required> Male
+                    <input type="radio" name="sex" value="0" required> Female
+                   </b>
+                </div>
+            </div>
+            <div>
+                <label for="trestbps">Resting Blood Pressure (trestbps):</label>
+                <input type="number" name="trestbps" required>
+            </div>
+            <div>
+                <label for="chol">Cholesterol Level (chol):</label>
+                <input type="number" name="chol" required>
+            </div>
+            <div>
+                <label for="thalach">Max Heart Rate (thalach):</label>
+                <input type="number" name="thalach" required>
+            </div>
+            <div>
+                <label for="oldpeak">ST Depression (oldpeak):</label>
+                <input type="number" name="oldpeak" step="0.1" required>
+            </div>
+            <div>
+                <input type="submit" value="Predict">
+            </div>
+        </form>
+
+        <h3>{{ prediction_text }}</h3>
+    </div>
+
+    <footer>
+        <>&copy; 2024 Adesh Gurjar (0901IO211002)</>
+    </footer>
+</body>
+</html>
