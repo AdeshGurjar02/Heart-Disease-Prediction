@@ -19,8 +19,40 @@ This project provides a web application for predicting the likelihood of heart d
 - **HTML/CSS**: For creating the web interface.
 - **Python 3.10**: The programming language used for development.
 
-## Installation
+## Usage
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/username/heart-disease-prediction.git
+   1. **Open the Application**
+      Navigate to `http://127.0.0.1:5000/` in your web browser.
+   
+   2. **Enter Patient Data**
+      Fill out the form with the required health metrics. The form fields include:
+      - **Age**: Enter the patient's age.
+      - **Sex**: Select the patient's sex (Male or Female).
+      - **Chest Pain Type (cp)**: Select the type of chest pain (1, 2, or 3).
+      - **Resting Blood Pressure (trestbps)**: Enter the resting blood pressure in mm Hg.
+      - **Cholesterol Level (chol)**: Enter the cholesterol level in mg/dl.
+      - **Fasting Blood Sugar (fbs)**: Enter whether the fasting blood sugar is greater than 120 mg/dl (1 for Yes, 0 for No).
+      - **Maximum Heart Rate (thalach)**: Enter the maximum heart rate achieved.
+      - **Exercise Induced Angina (exang)**: Enter whether there is exercise-induced angina (1 for Yes, 0 for No).
+      - **ST Depression (oldpeak)**: Enter the ST depression induced by exercise relative to rest.
+      - **Slope of Peak Exercise ST Segment (slope)**: Select the slope of the peak exercise ST segment (0, 1, or 2).
+      - **Number of Major Vessels Colored by Fluoroscopy (ca)**: Enter the number of major vessels colored by fluoroscopy (0, 1, 2, or 3).
+      - **Resting Electrocardiographic Results (restecg)**: Select the resting electrocardiographic result (0, 1, or 2).
+      - **Thalassemia (thal)**: Select the thalassemia (1, 2, or 3).
+   
+   3. **Submit the Form**
+      Click the "Predict" button to get the prediction result.
+   
+   4. **View Prediction**
+      The result will be displayed on the same page, indicating whether there is a high or low chance of heart disease based on the input data.
+   ## Contact
+
+For any questions or issues related to this project, please feel free to reach out:
+
+- **Name**: Adesh Gurjar
+- **Email**: [adeshg@example.com](mailto:adeshg@example.com)
+- **GitHub**: [github.com/adeshg](https://github.com/adeshg)
+- **LinkedIn**: [linkedin.com/in/adeshg](https://www.linkedin.com/in/adeshg)
+
+You can also report issues or contribute to this project via the [GitHub Issues page](https://github.com/adeshg/heart-disease-prediction/issues).
+
