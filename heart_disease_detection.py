@@ -331,4 +331,20 @@ print(classification_report(y_test, best_rf.predict(X_test)))
 
 rf_evaluation = evaluate_model(best_rf, X_test, y_test, 'RF')
 rf_evaluation
+import pickle
+
+# Save the model (for example, best_rf or best_svm)
+with open('heart_disease_model.pkl', 'wb') as f:
+    pickle.dump(best_rf, f)  # Replace best_rf with the model you want to save
+ def load_model_and_predict(input_data):
+   
+    # Load the model
+    with open('heart_disease_model.pkl', 'rb') as f:
+        model = pickle.load(f)
+
+    # Assuming input_data is a 2D numpy array or pandas DataFrame
+    prediction = model.predict(input_data)
+    
+    return prediction
+
 
